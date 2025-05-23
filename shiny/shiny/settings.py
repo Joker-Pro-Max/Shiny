@@ -12,8 +12,8 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 
-from shiny.configs.mysql_config import *
-from shiny.configs.redis_config import REDIS_LOCATION_HOST
+from configs.mysql_config import *
+from configs.redis_config import REDIS_LOCATION_HOST
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
